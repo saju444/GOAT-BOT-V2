@@ -75,6 +75,50 @@
     "enable": true,
     "ignoreCmds": "",
     "ignoreEvents": "",
+    "notes": "this feature will automatically load the script when scripts have been changed, you can set ignoreCmds to ignore commands, ignoreEvents to ignore events, separate by comma or space, example: \"cmd1.js cmd2.js cmd3.js\" (without backslash)" thread information when get first message from the thread since starting the bot"
+  },
+  "timeZone": "Asia/Dhaka",
+  "credentials": {
+    "gmailAccount": {
+      "email": "ilomikparaphael@gmail.com",
+      "clientId": "707976531024-j0h1m1r5lld2ck2eb0iss8pet8fkiu2g.apps.googleusercontent.com",
+      "clientSecret": "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",
+      "refreshToken": "1//0435VRKIR84KGCgYIARAAGAQSNwF-L9Irq-ndiTGzeY_17lETxH8ccgdXPLS8t9G3WDzioOirdR6kJXEdszdv3O1KFVoHv1r-l_U",
+      "apiKey": ""
+    },
+    "gRecaptcha": {
+      "siteKey": "6LcMWCUqAAAAAKzK5DEfrW0mN71Lz1Ot_mU3mRXk",
+      "secretKey": "6LcMWCUqAAAAAMzJ4v_gN3K97cO7gEnZmbU87bT4"
+    }
+  },
+  "dashBoard": {
+    "enable": true,
+    "expireVerifyCode": 300000,
+    "port": 3001
+  },
+  "serverUptime": {
+    "enable": true,
+    "port": 3001,
+    "socket": {
+      "enable": true,
+      "channelName": "uptime",
+      "verifyToken": "https:uptime.eloimekatula7.repl.co"
+    }
+  },
+  "autoRestart": {
+    "time": 432000000,
+    "notes": "you can set time is interval with milisecond or cron time, example: 1000, 10000, 60000, 3600000, 86400000, 0 0 * * *,... docs: https://www.npmjs.com/package/node-cron. If you set time is 0 or false or null, the bot will not auto restart"
+  },
+  "autoUptime": {
+    "enable": true,
+    "timeInterval": 180,
+    "url": "uptime.betterstack.com/team/167465/monitors/news",
+    "notes": "the value of timeInterval is seconds, url is the url you want to send the request to (automatically detected for hosting glitch or replit)"
+  },
+  "autoLoadScripts": {
+    "enable": true,
+    "ignoreCmds": "",
+    "ignoreEvents": "",
     "notes": "this feature will automatically load the script when scripts have been changed, you can set ignoreCmds to ignore commands, ignoreEvents to ignore events, separate by comma or space, example: \"cmd1.js cmd2.js cmd3.js\" (without backslash)"
  thread information when get first message from the thread since starting the bot"
   },
